@@ -1,6 +1,5 @@
 import React from 'react'
 import { View } from 'react-native'
-import shallowCompare from 'react-addons-shallow-compare'
 import htmlparser2 from 'htmlparser2'
 import HTMLElement from './HTMLElement'
 import HTMLTextNode from './HTMLTextNode'
@@ -9,7 +8,7 @@ import HTMLStyles from './HTMLStyles'
 
 const TEXT_NODES_NAMES = ['p']
 
-class HTML extends React.Component {
+class HTML extends React.PureComponent {
   /* ****************************************************************************/
   // Class
   /* ****************************************************************************/
