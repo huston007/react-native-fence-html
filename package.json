@@ -1,5 +1,5 @@
 {
-  "name": "react-native-fence-html",
+  "name": "@huston007/react-native-fence-html",
   "author": "Thomas Beverley",
   "license": "BSD-2-Clause",
   "repository": "https://github.com/Thomas101/react-native-fence-html",
@@ -10,7 +10,7 @@
     "react-native-component",
     "html"
   ],
-  "version": "1.0.6",
+  "version": "1.1.0",
   "scripts": {
     "test": "standard"
   },
