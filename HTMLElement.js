@@ -3,7 +3,6 @@ import { Text, View } from 'react-native'
 import HTMLStyles from './HTMLStyles'
 import shallowCompare from 'react-addons-shallow-compare';
 
-
 class HTMLElement extends React.PureComponent {
   /* ****************************************************************************/
   // Class
