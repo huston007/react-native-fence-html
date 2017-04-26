@@ -1,5 +1,5 @@
 {
-  "name": "@huston007/react-native-fence-html",
+  "name": "@yuana1/react-native-fence-html",
   "author": "Thomas Beverley",
   "license": "BSD-2-Clause",
   "repository": "https://github.com/Thomas101/react-native-fence-html",
@@ -19,10 +19,11 @@
     "events": "^1.1.0",
     "html-entities": "^1.2.0",
     "htmlparser2": "^3.9.0",
-    "stream": "0.0.2"
+    "stream": "0.0.2",
+    "react-addons-shallow-compare": "^15.5.2"
   },
   "peerDependencies": {
-    "react": ">=0.14.8",
+    "react": ">=15.0.0",
     "react-native": ">=0.24.0"
   },
   "standard": {

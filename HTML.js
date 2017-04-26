@@ -5,6 +5,7 @@ import HTMLElement from './HTMLElement'
 import HTMLTextNode from './HTMLTextNode'
 import HTMLRenderers from './HTMLRenderers'
 import HTMLStyles from './HTMLStyles'
+import shallowCompare from 'react-addons-shallow-compare';
 
 const TEXT_NODES_NAMES = ['p']
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 import { AllHtmlEntities } from 'html-entities'
+import shallowCompare from 'react-addons-shallow-compare';
 
 const RE = Object.freeze({
   MULT_WHITESPACE: new RegExp(/\s+/g),
